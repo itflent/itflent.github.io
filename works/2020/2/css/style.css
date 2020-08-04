@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #293751;
+  background: #fff;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1.s-title {
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+p.s-subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.ibg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ibg img {
+  display: none;
+}
+
+body {
+  overflow-y: hidden;
+  padding: 100px 140px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+.logo__image {
+  width: 74px;
+}
+.logo__text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #293751;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 68px;
+  font-weight: 800;
+}
+.title__main {
+  color: #fecb00;
+}
+.subtitle {
+  font-size: 20px;
+  max-width: 480px;
+  line-height: 28px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 30px;
+  color: #fff;
+  background: #fecb00;
+  border-radius: 10px;
+}
+
+.link {
+  display: inline-block;
+  color: #293751;
+  font-weight: 500;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 120px;
+  bottom: 100px;
+}
+.social-media__item {
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fecb00;
+  margin: 0px 10px;
+}
+.social-media__item:first-child {
+  margin-left: 0;
+}
+.social-media__item:last-child {
+  margin-right: 0;
+}
+.social-media__link img {
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+}
+
+.wrapper__right {
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+.wrapper__image {
+  position: relative;
+}
+.wrapper__image img {
+  width: 730px;
+}
+.wrapper__title {
+  margin-top: 100px;
+}
+.wrapper__subtitle {
+  margin-top: 80px;
+}
+.wrapper__button {
+  margin-top: 80px;
+}
+.wrapper__link {
+  margin-top: 15px;
+}
