@@ -727,6 +727,9 @@ p.s-subtitle {
   align-items: center;
   border-radius: 10px;
 }
+.blocks__item:first-child {
+  margin-right: 20px;
+}
 .blocks__title {
   text-align: center;
 }
