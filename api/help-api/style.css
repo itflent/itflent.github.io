@@ -1,3 +1,11 @@
+li{
+  list-style: none;
+}
+
+a{
+  color: #222;
+}
+
 .help {
   position: fixed;
   left: 0;
